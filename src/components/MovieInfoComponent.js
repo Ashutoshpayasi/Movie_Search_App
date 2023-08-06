@@ -101,7 +101,8 @@ export default function MovieInfoComponent({selectedMovie,onMovieSelect}) {
             <MovieInfo>
               Actors: <span>{Actors}</span>
             </MovieInfo>
-            <h1 onClick={()=>{onMovieSelect(null)}}>X</h1>
+             
+        <button onClick={()=>{onMovieSelect(null)}} style={{padding:'5px 20px',outline:'none',background:'grey'}}>close</button>
             </InfoColumn>
             </Container>
     
