@@ -53,8 +53,8 @@ const SearchInput = styled.input`
   margin-left: 15px;
 `;
 const SearchIcon = styled.img`
-  width: 32px;
-  height: 32px;
+  width: auto;
+  height: 30px;
 `;
 const MovieListContainer = styled.div`
   display: flex;
@@ -98,12 +98,12 @@ export default function Container() {
         <div>
             <Containers>
                 <Header>
-                     <MovieImage src='https://raw.githubusercontent.com/ayushkul/react-movie-app/cc32c62558a8d0ee01f7db2b7b28589bf8dfbf89/public/react-movie-app/movie-icon.svg'></MovieImage>
+                     <MovieImage src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvmv9wkGaWwu7JpcNKm1bLCfGhRcWzYoSNlNV1fjDmA&s'></MovieImage>
                     <AppName>
                         Movie Search App
                     </AppName>
                     <SearchBox>
-                        <SearchIcon  src='https://raw.githubusercontent.com/ayushkul/react-movie-app/cc32c62558a8d0ee01f7db2b7b28589bf8dfbf89/public/react-movie-app/search-icon.svg'/>
+                        <SearchIcon  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK5yxGWfW4pCzDHfh123WsdJdxj8b4GlQct5v_t5zxA&s'/>
                         <SearchInput
                             placeholder="enter movie name"
                             value={inputsearch}
